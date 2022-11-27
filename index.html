@@ -1,73 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <!--CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/9ecdc971d6.js" crossorigin="anonymous"></script>
+  <!--style-->
+  <link href="assets/css/style.css"  type="text/css" rel="stylesheet">
 
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--style-->
-
-    <link rel="styleheet" type="text/css" src="style.css">
-
-    <title>Document</title> 
- </head>
- <body>
-<div>
-
-<style>
-   .white{
-      background-color:gray;  
-   }
-
-</style>
-
-
- <style>
-  .roco{color:white}
-</style>
-
-
-<div class="white"  >
-<"Right">
-   <h1 class="roco" >BIENES RAICES</h1>
-   <h2  >BIENES RAICES</h2>
-     <p><u ><FONT FACE="inicio" SIZE=4 COLOR="purple">Inicio</FONT></u>
-     <u><FONT FACE="quienes" SIZE=4 COLOR="purple">quienes</FONT></u>
-     <u><FONT FACE="inicio" SIZE=4 COLOR="purple">Galeria</FONT></u>
-     <u><FONT FACE="quienes" SIZE=4 COLOR="purple">Contacto</FONT> </u></p><br>
-     <br>  
-     <br> 
-     <br> 
-     <br> 
-     <br>
-   </p>
-
-</div>
-
-  <p ><strong>Mas sobre nosotros 
- seguridad</strong> </p>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/Logo.png" alt="Logo" width="211" height="100" class="d-inline-block align-text-top" class="w-100 img-fluid">
+      </a> 
+     <ul class="list-group list-group-horizontal">
+       <li class="list-group-item" > <a href="http://linkedin.com"target="_blank"> <i class="fa-brands fa-linkedin fa-xl  "> </i> </a> </li>
+       <li class="list-group-item" ><a href="https://github.com/Belro77"target="_blank"> <i class="fa-brands fa-github fa-xl  "></i></a>   </li>
+       <li class="list-group-item" >  <!-- Button trigger modal -->
+       <i class="fa-solid loock fa-user fa-xl" type="button" class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#exampleModal" ></i>
+      </li> 
+      </ul>
+    </div>
+    </nav>
  
- Lorem ipsum dolor sit amet consectetur,adipisicing elit .Fugit opio distinctio,necessitatibus atque mulla mollitia tempora,
- ducimus sit eius quidem dolor sequi natus illum alias doloremque? Voluptate sed iure  voluptatum!<br>
- <br><strong>El mejor precio</strong><br>
- Lorem ipsum dolor sit amet consectetur,adipisicing elit .Fugit opio distinctio,necessitatibus atque mulla mollitia tempora,
- ducimus sit eius quidem dolor sequi natus illum alias doloremque? Voluptate sed iure  voluptatum!
- <br><strong>A tiempo</strong> <br>
- Lorem ipsum dolor sit amet consectetur,adipisicing elit .Fugit opio distinctio,necessitatibus atque mulla mollitia tempora,
- ducimus sit eius quidem dolor sequi natus illum alias doloremque? Voluptate sed iure  voluptatum!
- <br><strong>Encuentra la casa de tus sueños</strong> <br>
-Lorem ipsum dolor sit amet consectetur,adipisicing elit .Dolore sed id ,reprehenderit ducimus officiis dolorum doloremque non fuga nula earum ,aliquam delectus dolorem .Fugiat non ut dolor a quisquam.
-<br>
-<input type="button" value="Mas">
-</div>
-<p class="white">Diseñado por alumos de Codo a Codo 2022
-<br>
+  
+ <!--banner-->
+<section class="banner col-lg-12 ">
+  <h1 class="intro text-center  ">
+   
+    Belen Rojas
+</h1>
+ </section>
 
-
-<br>
-<br>
+<!--Presentación-->
+<section class="Presentación ">
+      <!--se saco text-center-->
+        <div class="">
+          <div class="row">
+            <div class="col-lg-2">
+              <img src="assets/img/bel.jpg" class="foto rounded-circle img-fluid ">
+            </div>
+            <div class="col-lg-10">
+              <h2 class="intro"><b>Acerca de .</b></h2>
+              <h4 class="intro ">Me llamo Belen Rojas tengo 23 años ,culmine el secundario con orientación en Perito Auxiliar en Infórmatica 
+                 donde aprendi Adobe photoshop , Excel y otros programas de  Infórmatica.<br>
+                
+                En lo laboral como virtudes destaco mi responsabilidad,compañerismo y proactividad.
+                 </h4>
+            </div>
+          </div>
+</section>
+<!--Experiencia Laboral-->
+<section class="Laboral">
+<h2 class="Expe">
+<b>Experiencia Laboral.</b>
+</h2>
+<h3 class="Expe"> <b>Cajera en local de comidas.</b>
+</h3>
+<p class="Expe">
+-Atender clientes con sus dudas. <br>
+-Cobrar adecuadamente los producto.<br>
+-Cierre diario de caja.<br>
 </p>
+<h3 class="Expe"><b>Cuidado de niños.</b></h3>
+<p class="Expe 2">
+-Ayudar a los niños con sus tareas de escuela.<br>
+-Armar rutinas de juegos .
+</p>
+</section>
+<!--Educación-->
+<section class="Educación">
+<h2 class="Edu">
+ <b>Educación</b> 
+</h2>
+<p class="Edu"> 
+ Secundario : Perito Auxiliar en Informática en Instituto Nuestra
+  Señora de Caacupé.(2016)<br>
+  Curso de Excel - Universidad Austral (2020)<br>
+Curso de Desarrollador full stack- INTI  (Actualmente cursando )
+  </p>
+</section>
 
- </body>
- </html>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" bria-labelledby="exampleModalLabel" aria-hidden="true">
+ login <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+      
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Ingresar</button>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+   <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
+</body>
+</html>
+</html>

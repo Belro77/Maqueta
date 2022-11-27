@@ -1,0 +1,115 @@
+.navbar.navbar-expand-lg.bg-secondary
+{
+    background: rgb(114,18,115);
+    background: -moz-linear-gradient(0deg, rgba(114,18,115,0.8995973389355743) 18%, rgba(69,11,144,1) 89%);
+    background: -webkit-linear-gradient(0deg, rgba(114,18,115,0.8995973389355743) 18%, rgba(69,11,144,1) 89%);
+    background: linear-gradient(0deg, rgba(10, 62, 205, 0.9) 18%, rgba(69,11,144,1) 89%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#721273",endColorstr="#450b90",GradientType=1);
+    height: 10vh;
+    width: 100vw;
+}
+
+
+.list-group-item{
+    background-color: transparent;
+    border-color:transparent;
+    color:#212529;
+}
+i.fa-brands.fa-linkedin.fa-xl:hover{
+    color:white;
+}
+i.fa-brands.fa-github.fa-xl:hover
+{
+    color:white !important
+}
+i.fa-brands.fa-linkedin.fa-xl
+{
+    color:#212529;
+}
+i.fa-brands.fa-github.fa-xl{
+    color:#212529
+    }
+
+section.banner {      
+    width: 100vw;
+    background-repeat: no-repeat ; 
+    padding-top:20% ;
+    margin-right:19%;
+    height: 68vh;
+    width: 100vw;
+}
+h1.intro{ 
+    font-size: calc(2.9rem + 1.5vw);
+    color:rgb(199, 189, 201);
+    font-family: 'Bell MT';
+    margin-top: 8%;
+    margin-left: 60%; }    
+ h2.intro{
+    color:rgb(91, 43, 99);  
+    font-size: calc(1.1rem + 1.0vw);
+    font-family: 'Bradley Hand ITC';
+ }
+ .foto
+ {  height:30vh;
+      width:13vw;
+      margin-top:-30%;
+    margin-right:40rem;} 
+   h4.intro
+   { font-family: 'Gill Sans MT';
+    font-size: calc(0.9rem + 0.5vw);
+    margin-right:12%;
+    margin-top:2%; }
+   .Laboral{
+        margin-top: 4%;
+    }
+P.Expe
+   {  font-family: 'Gill Sans MT';
+      font-size: calc(1.0rem + 0.5vw);
+      
+      margin-left:17%; }
+      h2.Expe
+
+      {  font-family: 'Bradley Hand ITC';
+         color:rgb(91, 43, 99);  
+        margin-left:17%;
+        margin-top:1%;
+        font-size: calc(1.0rem + 1.0vw);}
+        h3.Expe
+        {
+            color:#5b5c5d;
+            margin-left:17%; 
+            font-family: 'Gill Sans MT' ;
+            font-size: calc(0.8rem + 0.5vw);
+            margin-top:1%; }
+      
+       p.Expe2{
+       
+        font-family: 'Gill Sans MT';
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top:-6%; 
+        margin-left:17%;  
+    }
+    .Educación{
+        margin-top:6%;
+    }
+       h2.Edu
+       {  font-family: 'Bradley Hand ITC';
+         color:rgb(91, 43, 99);  
+         margin-left:17%;
+         margin-top:1%;
+         font-size: calc(1.1rem + 1.0vw);
+    
+ }
+ section.banner{
+    background-image: url(../../assets/img/col.jpg);
+   
+  background-size: cover;}
+  P.Edu
+  {  font-family: 'Gill Sans MT';
+    font-size: calc(1.0rem + 0.5vw);
+    
+    margin-left:17%;  
+  }
+body{
+    background-color:rgb(246, 231, 247)  ;
+}
